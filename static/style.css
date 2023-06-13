@@ -244,8 +244,37 @@ button:hover{
 }
 
 @media screen and (max-width:600px){
-    .cabeçalho-link {
-        display: none;
+    body {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .cabeçalho-link a{
+        color: #fff;
+        font-size: 12px;
+        margin-left: 13vh;
     }
     
+    .carta{
+        margin-top: -20vh;
+        text-align: center;
+    }
+
+    .carta img{
+        display: none;
+    }
+
+    #assinado{
+       display: none;
+    }
+
+
+    .carta p{
+        font-size: 10px;
+        margin-left: -23vh;
+        width: 35vh;
+    }
 }
