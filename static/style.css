@@ -252,15 +252,20 @@ button:hover{
         overflow: hidden;
     }
 
+    .carta h1{
+        display: none;
+    }
+
     .cabeçalho-link a{
         color: #fff;
         font-size: 12px;
-        margin-left: 13vh;
+        margin-left: 7vh;
     }
     
     .carta{
-        margin-top: -20vh;
+        margin-top: 5vh;
         text-align: center;
+        margin-left: 10vh;
     }
 
     .carta img{
@@ -274,7 +279,6 @@ button:hover{
 
     .carta p{
         font-size: 10px;
-        margin-left: -23vh;
         width: 35vh;
     }
 }
